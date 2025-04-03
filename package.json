@@ -1,0 +1,39 @@
+{
+  "name": "Kambaz-node-server-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HTTP Web server for Kambaz app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhavyalakhani/Kambaz-node-server-app.git"
+  },
+  "author": "Bhavya K Lakhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhavyalakhani/Kambaz-node-server-app/issues"
+  },
+  "homepage": "https://github.com/Bhavyalakhani/Kambaz-node-server-app#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "nodemon": "^3.1.7"
+  },
+  "keywords": [
+    "Node.js",
+    "HTTP",
+    "Web",
+    "server",
+    "for",
+    "the",
+    "Kambaz",
+    "application"
+  ]
+}
